@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beranda | Van Felix Ngarta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body id="top">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Van Felix Ngarta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="background.html">Latar Belakang</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pekerjaan.html">Pekerjaan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pendidikan.html">Pendidikan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="alasan.html">Alasan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                </ul>
+                <div class="form-check form-switch text-white ms-3">
+                    <input class="form-check-input" type="checkbox" id="toggleDarkMode">
+                    <label class="form-check-label" for="toggleDarkMode">🌙</label>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section parallax d-flex align-items-center justify-content-center text-center text-white" style="height: 100vh;">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Halo, Saya Van Felix Ngarta</h1>
+            <p class="lead">Selamat datang di website pribadi saya</p>
+            <a href="background.html" class="btn btn-warning mt-3">Jelajahi Profil</a>
+        </div>
+    </section>
+
+    <div class="container text-center my-5">
+        <button class="btn btn-warning btn-lg" data-bs-toggle="modal" data-bs-target="#introModal">
+            👋 Lihat Sambutan Singkat
+        </button>
+    </div>
+
+    <div class="modal fade" id="introModal" tabindex="-1" aria-labelledby="introModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="introModalLabel">Selamat Datang!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+                </div>
+                <div class="modal-body">
+                    Terima kasih telah mengunjungi website pribadi saya. Saya Van Felix Ngarta, seorang mahasiswa S1 yang tertarik pada dunia teknologi, pemrograman web, dan psikologi. Yuk, telusuri lebih lanjut!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center p-4 mt-5">
+        &copy; 2025 Van Felix Ngarta. All rights reserved.
+        <a href="#top" class="d-block text-warning mt-2 text-decoration-none">⬆ Kembali ke atas</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
